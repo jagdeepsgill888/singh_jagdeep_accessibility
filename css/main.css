@@ -34,7 +34,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: #ddd;
+  background-color: #41aec4;
 }
 
 button:active {
@@ -74,4 +74,26 @@ video {
 
 .controls img {
   width: 25px;
+}
+
+.transButtn {
+  background: #95c2c9;
+}
+
+button {
+  background: #95c2c9;
+}
+
+video::cue {
+  font-size: 170%;
+  color: #f7b705;
+  background-color: #3d3d3b;
+}
+
+.person1text {
+  color: #0c94cf;
+}
+
+.person2text {
+  color: #810ccf;
 }
