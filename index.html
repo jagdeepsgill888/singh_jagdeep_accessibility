@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic custom controls</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Basic custom controls</h1>
+
+  <section class="player">
+    <video controls>
+      <source src="video/lion_king.mp4" type="video/mp4">
+      <source src="video/lion_king.webm" type="video/webm">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="lion_king.mp4">link to the video</a> instead.</p>
+    </video>
+
+    <div class="controls">
+      <button class="playpause"><img src="images/play_button.png" alt="play button"></button>
+      <button class="stop"><img src="images/stop_button.png" alt="stop button"></button>
+      <button class="rwd"><img src="images/rewind_button.png" alt="rewind button"></button>
+      <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
+      <div class="time">00:00</div>
+    </div>
+  </section>
+
+  <div class="transcript-container">
+    <div class="transcript-control">
+      <button>Show transcript</button>
+    </div>
+    <section class="transcript">
+      <p><strong>Person1</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at convallis libero, ut ultricies massa. Integer vel tempor nisi. Nunc scelerisque enim est. Duis lorem ipsum, semper vitae sem at, ultricies interdum ex.</p>
+
+      <p><strong>Person 2</strong>: In consectetur maximus blandit. Curabitur convallis iaculis quam, eu porta erat suscipit sit amet. Morbi viverra placerat ipsum, non bibendum libero egestas eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis condimentum ante. Nullam ullamcorper faucibus eros. Quisque egestas non risus a faucibus. Curabitur luctus tincidunt turpis in scelerisque.</p>
+
+      <p><strong>Person 1</strong>: Suspendisse sapien ipsum, lacinia eu bibendum in, congue eu purus. Sed fringilla sollicitudin faucibus. Cras sodales sapien neque, eget gravida augue lobortis ac. Mauris blandit faucibus porta.</p>
+
+      <p><strong>Person 2</strong>: Fusce non libero eget nisl porta egestas ut sed elit. Nullam molestie lectus ut elementum sagittis. Donec dictum nunc leo, quis gravida diam varius non. Nam ac nisl vel nibh iaculis convallis vel eget arcu. Mauris pharetra purus ac ornare pellentesque. Fusce in leo nunc. Nunc eget vehicula sem, quis aliquam lorem.</p>
+
+      <p><strong>Person 3</strong>: Ut auctor ornare pulvinar. Morbi nisl ipsum, pellentesque et bibendum eget, vestibulum in massa. Cras egestas cursus est sed ultrices. Etiam vel dui felis.</p>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
