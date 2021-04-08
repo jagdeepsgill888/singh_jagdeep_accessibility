@@ -1,4 +1,4 @@
-# SupStranger
+# Multimedia
 
 Welcome to my Multimedia Page that is accessible to differnt types of users.
 
@@ -10,7 +10,7 @@ _Warning_ The song is cursed!!
 
 ## Install
 
-No install needed
+No install needed, just clone the repo and you're good to go!
 
 ## Reference
 
@@ -24,7 +24,7 @@ Jagdeep Singh
 
 ## Build with
 
-CSS, HTML, SASS, JS, Vue, socket.io and Animate.css
+CSS, HTML, and JS
 
 ## license
 
