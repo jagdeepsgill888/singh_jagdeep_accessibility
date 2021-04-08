@@ -6,12 +6,21 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Basic custom controls</h1>
+    <h1> Media Accessibility</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Film</a></li>
+          <li><a href="tv.html">TV Show</a></li>
+          <li><a href="music.html">Music</a></li>
+      </ul>
+      </nav>
 
   <section class="player">
+      <h2>Lion King</h2>
     <video controls>
       <source src="video/lion_king.mp4" type="video/mp4">
       <source src="video/lion_king.webm" type="video/webm">
+      <track kind="subtitles" default src="subtitles/lion.vtt" srclang="en">
       <p>Your browser doesn't support HTML5 video. Here is a <a href="lion_king.mp4">link to the video</a> instead.</p>
     </video>
 
@@ -22,24 +31,30 @@
       <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
       <div class="time">00:00</div>
     </div>
+
+    <div class="transcript-container">
+        <div class="transcript-control">
+          <button class="transButtn">Show transcript</button>
+        </div>
+        <section class="transcript">
+          <p><strong class="person1text">Person1</strong>: Nants ingonyama bagithi Baba Sithi uhm ingonyama.</p>
+    
+                <p><strong class="person1text">Person 1</strong>: Nants ingonyama bagithi baba Sithi uhhmm ingonyama Ingonyama</p>
+    
+                <p><strong class="person1text">Person 1</strong>: Siyo Nqoba Ingonyama Ingonyama nengw' enamabala </p>
+    
+          <p><strong class="person2text">Person 2</strong>: It's the Circle of Life</p>
+                <p><strong class="person2text">Person 2</strong>: And it moves us all</p>
+                <p><strong class="person2text">Person 2</strong>:  Through despair and hope</p>
+                <p><strong class="person2text">Person 2</strong>: Till we find our place</p>
+                <p><strong class="person2text">Person 2</strong>: In the Circle</p>
+                <p><strong class="person2text">Person 2</strong>: The Circle of Life</p>
+    
+        </section>
+      </div>
+    
   </section>
 
-  <div class="transcript-container">
-    <div class="transcript-control">
-      <button>Show transcript</button>
-    </div>
-    <section class="transcript">
-      <p><strong>Person1</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at convallis libero, ut ultricies massa. Integer vel tempor nisi. Nunc scelerisque enim est. Duis lorem ipsum, semper vitae sem at, ultricies interdum ex.</p>
-
-      <p><strong>Person 2</strong>: In consectetur maximus blandit. Curabitur convallis iaculis quam, eu porta erat suscipit sit amet. Morbi viverra placerat ipsum, non bibendum libero egestas eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis condimentum ante. Nullam ullamcorper faucibus eros. Quisque egestas non risus a faucibus. Curabitur luctus tincidunt turpis in scelerisque.</p>
-
-      <p><strong>Person 1</strong>: Suspendisse sapien ipsum, lacinia eu bibendum in, congue eu purus. Sed fringilla sollicitudin faucibus. Cras sodales sapien neque, eget gravida augue lobortis ac. Mauris blandit faucibus porta.</p>
-
-      <p><strong>Person 2</strong>: Fusce non libero eget nisl porta egestas ut sed elit. Nullam molestie lectus ut elementum sagittis. Donec dictum nunc leo, quis gravida diam varius non. Nam ac nisl vel nibh iaculis convallis vel eget arcu. Mauris pharetra purus ac ornare pellentesque. Fusce in leo nunc. Nunc eget vehicula sem, quis aliquam lorem.</p>
-
-      <p><strong>Person 3</strong>: Ut auctor ornare pulvinar. Morbi nisl ipsum, pellentesque et bibendum eget, vestibulum in massa. Cras egestas cursus est sed ultrices. Etiam vel dui felis.</p>
-    </section>
-  </div>
 
   <script src="js/main.js"></script>
   </body>
