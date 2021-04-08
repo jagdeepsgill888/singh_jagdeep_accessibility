@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic custom controls</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1> Media Accessibility</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Film</a></li>
+        <li><a href="tv.html">TV Show</a></li>
+        <li><a href="music.html">Music</a></li>
+    </ul>
+    </nav>
+
+  <section class="player">
+    <h2>Cursed Song</h2>
+    <audio controls>
+      <source src="audio/never_gonna.mp3" type="audio/mp3">
+      <source src="audio/never_gonna.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/never_gonna.mp3">link to the audio</a> instead.</p>
+    </audio>
+
+    <div class="controls">
+        <button class="playpause"><img src="images/play_button.png" alt="play button"></button>
+      <button class="stop"><img src="images/stop_button.png" alt="stop button"></button>
+      <button class="rwd"><img src="images/rewind_button.png" alt="rewind button"></button>
+      <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
+        <div class="time">00:00</div>
+      </div>
+
+      <div class="transcript-container">
+        <div class="transcript-control">
+          <button class="transButtn">Show transcript</button>
+        </div>
+        <section class="transcript">
+    
+                <p><strong class="person1text">Person 1</strong>: Instruments sound</p>
+    
+                <p><strong class="person1text">Person 1</strong>: We're no strangers to love</p>
+                <p><strong class="person1text">Person 1</strong>: You know the rules and so do I</p>
+                <p><strong class="person1text">Person 1</strong>: A full commitment's what I'm thinking of</p>
+                <p><strong class="person1text">Person 1</strong>:You wouldn't get this from any other guy</p>
+                <p><strong class="person1text">Person 1</strong>: I just wanna tell you how I'm feeling</p>
+                <p><strong class="person1text">Person 1</strong>: Gotta make you understand</p>
+                <p><strong class="person1text">Person 1</strong>: Never gonna give you up</p>
+                <p><strong class="person1text">Person 1</strong>: Never gonna let you down</p>
+                <p><strong class="person1text">Person 1</strong>: Never gonna run around and desert you</p>
+                <p><strong class="person1text">Person 1</strong>: Never gonna make you cry</p>
+                <p><strong class="person1text">Person 1</strong>: Never gonna say goodbye</p>
+
+
+    
+    
+        </section>
+      </div>
+      
+      </section>
+  
+
+
+  <!-- <section class="player">
+    <audio controls>
+      <source src="audio/never_gonna.mp3" type="audio/mp3">
+      <source src="audio/never_gonna.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/never_gonna.mp3">link to the audio</a> instead.</p>
+    </audio>
+
+    <div class="controls">
+        <button class="playpause"><img src="images/play_button.png" alt="play button"></button>
+      <button class="stop"><img src="images/stop_button.png" alt="stop button"></button>
+      <button class="rwd"><img src="images/rewind_button.png" alt="rewind button"></button>
+      <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
+        <div class="time">00:00</div>
+      </div>
+      </section> -->
+
+  <script src="js/audio.js"></script>
+  </body>
+</html>

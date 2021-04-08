@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic custom controls</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1> Media Accessibility</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Film</a></li>
+        <li><a href="tv.html">TV Show</a></li>
+        <li><a href="music.html">Music</a></li>
+    </ul>
+    </nav>
+
+  <section class="player">
+      <h2>Seinfeld</h2>
+    <video controls>
+      <source src="video/sienfield_trim.mp4" type="video/mp4">
+      <source src="video/sienfield_trim.webm" type="video/webm">
+      <track kind="subtitles" default src="subtitles/seinfeld.vtt" srclang="en">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="sienfield_trim.mp4">link to the video</a> instead.</p>
+    </video>
+
+    <div class="controls">
+      <button class="playpause"><img src="images/play_button.png" alt="play button"></button>
+      <button class="stop"><img src="images/stop_button.png" alt="stop button"></button>
+      <button class="rwd"><img src="images/rewind_button.png" alt="rewind button"></button>
+      <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
+      <div class="time">00:00</div>
+    </div>
+
+    <div class="transcript-container">
+        <div class="transcript-control">
+          <button class="transButtn">Show transcript</button>
+        </div>
+        <section class="transcript">
+          <p><strong class="person1text">Jerry Seinfeld</strong>: What's the show about?</p>
+    
+                <p><strong class="person2text">George Costanza</strong>: It's about nothing</p>
+    
+                <p><strong class="person1text">Jerry Seinfeld</strong>: No story? </p>
+    
+          <p><strong class="person2text">George Costanza</strong>: uh forget the story</p>
+                <p><strong class="person1text">Jerry Seinfeld</strong>: You gotta have a story</p>
+                <p><strong class="person2text">George Costanza</strong>:  Remember when we were waiting for the table in that chinese restaurant that time?</p>
+                <p><strong class="person3text">Elaine Benes</strong>: It's not fair that people are seated as first come first serve </p>
+                <p><strong class="person3text">Elaine Benes</strong>: It should be based on whose hungriest </p>
+                <p><strong class="person2text">George Costanza</strong>: That could be a tv show</p>
+                <p><strong class="person1text">Jerry Seinfeld</strong>: Then who's on the show.. who are the characters? </p>
+                <p><strong class="person2text">George Costanza</strong>: I could be a character</p>
+                <p><strong class="person1text">Jerry Seinfeld</strong>: You??</p>
+                <!-- <p><strong class="person2text">George Costanza</strong>: Thick lustrous hair is very important </p> -->
+    
+        </section>
+      </div>
+    
+  </section>
+
+  
+
+
+  <!-- <section class="player">
+    <audio controls>
+      <source src="audio/never_gonna.mp3" type="audio/mp3">
+      <source src="audio/never_gonna.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/never_gonna.mp3">link to the audio</a> instead.</p>
+    </audio>
+
+    <div class="controls">
+        <button class="playpause"><img src="images/play_button.png" alt="play button"></button>
+      <button class="stop"><img src="images/stop_button.png" alt="stop button"></button>
+      <button class="rwd"><img src="images/rewind_button.png" alt="rewind button"></button>
+      <button class="fwd"><img src="images/fast_forward_button.png" alt="fast forward button"></button>
+        <div class="time">00:00</div>
+      </div>
+      </section> -->
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
