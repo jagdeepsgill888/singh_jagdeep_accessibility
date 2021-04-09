@@ -14,10 +14,10 @@ No install needed, just clone the repo and you're good to go!
 
 ## Reference
 
-[Dev Doc](https://docs.google.com/document/d/1DZRu15Y00N4WZaD_9uEEsnOFDf3ugBes-tZEtiP2C7k/edit?usp=sharing)
-https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
-https://www.flaticon.com/
-https://www.youtube.com/watch?v=lz_JiPZhC6E
+- [Dev Doc](https://docs.google.com/document/d/1DZRu15Y00N4WZaD_9uEEsnOFDf3ugBes-tZEtiP2C7k/edit?usp=sharing)
+- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
+- https://www.flaticon.com/
+- https://www.youtube.com/watch?v=lz_JiPZhC6E
 
 ## Author
 
