@@ -1,12 +1,12 @@
 # Multimedia
 
-Welcome to my Multimedia Page that is accessible to differnt types of users.
+Welcome to my Multimedia Page that is accessible to different types of users.
 
 ## How to Use?
 
 There are three types of media (Movie, Tv show and Music)
 You can access each of them from the nav.
-_Warning_ The song is cursed!!
+* _Warning_ The song is cursed!!
 
 ## Install
 
